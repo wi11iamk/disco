@@ -803,10 +803,7 @@ def process_and_plot_data(participant_ids, num_trials):
     plt.tight_layout()
     plt.show()
 
-process_and_plot_data(participant_ids=['012', '014', '015', '016', '017', '018', 
-                                       '027', '028', '029', '036', '037', '039', 
-                                       '044', '049', '051', '054', '058', '066', 
-                                       '067'], num_trials=12)
+process_and_plot_data(participant_ids=[''], num_trials=12)
 
 #%%
 
